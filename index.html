@@ -37,7 +37,7 @@
             border-radius: 15px;
         }
 
-        .header {
+        header {
             background-image: url('images/image-equilibrium.jpg');
             height: 50%;
             background-position: center;
@@ -112,7 +112,7 @@
             border-radius: 25px;
         }
 
-        footer {
+        .footer {
             grid-area: footer;
             text-indent: -40px;
         }
@@ -176,12 +176,12 @@
 <body>
     <div class="card">
 
-        <div class="header" role="header">
+        <header>
             <div class="cyanbg">
                 <div class="viewimage"><img src="images/icon-view.svg" alt="view"></div>
             </div>
-        </div>
-        <div class="grid-container">
+        </header>
+        <div class="grid-container" role="main">
             <h1>Equilibrium #3429</h1>
             <p class="content">Our Equilibrium collection promotes balance and calm.</p>
             <img class="template1" src="images/icon-ethereum.svg" alt="eth">
@@ -193,7 +193,7 @@
             <div class="avatar">
                 <img src="images/image-avatar.png" alt="someguy">
             </div>
-            <footer><p>Creation of <span>Jules Wyvern</span></p></footer>
+            <div class="footer"><p>Creation of <span>Jules Wyvern</span></p></div>
         </div>
     </div>
 </body>
