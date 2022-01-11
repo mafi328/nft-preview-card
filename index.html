@@ -68,9 +68,6 @@
             grid-area: content;
         }
 
-        /*        positioning line with templates and their descriptions */
-        .template1 .template2 .ethereum .time .blank {}
-
         .template1 {
             grid-area: template1;
 
@@ -182,13 +179,13 @@
 <body>
     <div class="card">
 
-        <header>
+        <header role="banner">
             <div class="cyanbg">
                 <div class="viewimage"><img src="images/icon-view.svg" alt="view"></div>
             </div>
         </header>
-        <div class="grid-container">
-            <h1>Equilibrium #3429</h1>
+        <div class="grid-container" role="main">
+            <h1 role="navigation">Equilibrium #3429</h1>
             <p class="content">Our Equilibrium collection promotes balance and calm.</p>
             <img class="template1" src="images/icon-ethereum.svg" alt="eth">
             <p class="ethereum">0.041 ETH</p>
@@ -199,7 +196,7 @@
             <div class="avatar">
                 <img src="images/image-avatar.png" alt="someguy">
             </div>
-            <footer>
+            <footer role="contentinfo">
                 <p>Creation of <span>Jules Wyvern</span></p>
             </footer>
         </div>
