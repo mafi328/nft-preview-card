@@ -141,37 +141,34 @@
                 cursor: pointer;
                 color: hsl(178, 100%, 50%);
             }
-
-            header:hover {}
-
-            .cyanbg {
-
+                .cyanbg {
                 height: 100%;
                 width: 100%;
                 border-radius: 15px;
+                transition: 0.5s;
             }
 
-            .viewimage {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100%;
-                width: 100%;
-                opacity: 0;
-
-            }
-
-            .cyanbg:hover {
-                cursor: pointer;
-                background-color: hsl(178, 100%, 50%);
-                opacity: 0.5;
-            }
-
-            .viewimage:hover {
-                opacity: 1;
-
-            }
         }
+
+        .viewimage {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: 0.5s;
+        }
+
+        .cyanbg:hover {
+            cursor: pointer;
+            background-color: hsla(178, 100%, 50%, 0.5);
+        }
+
+        .viewimage:hover {
+            opacity: 1;
+        }
+     
 
     </style>
 </head>
